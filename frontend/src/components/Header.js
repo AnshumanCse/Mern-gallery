@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
+    <div>
       <nav className="px-2 w-full bg-black h-[8vh] flex justify-evenly items-center ">
         <Link to="/" className="text-white font-bold text-2xl">
           My Gallery
@@ -29,6 +30,7 @@ const Header = () => {
           </ul>
         </div>
       </nav>
+    </div>
     </>
   );
 };
